@@ -1,0 +1,28 @@
+{
+  "voitures": [
+    {
+      "marque": "Tesla",
+      "couleur": "rouge",
+      "prix": 49999,
+      "id": 1
+    },
+    {
+      "marque": "Renault",
+      "couleur": "verte",
+      "prix": 19999,
+      "id": 3
+    },
+    {
+      "marque": "Audi",
+      "couleur": "blanche",
+      "prix": 69999,
+      "id": 4
+    },
+    {
+      "marque": "Mazda",
+      "couleur": "Verte",
+      "prix": 10000,
+      "id": 5
+    }
+  ]
+}

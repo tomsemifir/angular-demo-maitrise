@@ -1,0 +1,14 @@
+<h1>Ajouter une voiture :</h1>
+<form [formGroup]="voitureForm" (ngSubmit)="addVoiture()">
+    <label> Marque : 
+        <input type="text" formControlName="marque">
+    </label>
+    <label> Couleur : 
+        <input type="text" formControlName="couleur">
+    </label>
+    <label> Prix : 
+        <input type="number" formControlName="prix">
+    </label>
+
+    <button class="btn btn-success">Ajouter</button>
+</form>

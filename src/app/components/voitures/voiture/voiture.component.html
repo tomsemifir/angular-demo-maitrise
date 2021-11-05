@@ -1,0 +1,11 @@
+<div class="card" style="width: 18rem;">
+    <img src="https://www.largus.fr/images/images/tesla-model-3_11.jpg" class="card-img-top" alt="voiture">
+    <div class="card-body">
+        <h5 class="card-title">#{{voiture.id}} - {{voiture.marque}}</h5>
+        <p class="card-text">Couleur : {{voiture.couleur}}</p>
+        <p class="card-text">Prix : {{voiture.prix}}</p>
+        <a [routerLink]="['/voitures', voiture.id, 'details']" class="btn btn-primary">Voir</a>
+        <a class="btn btn-danger" (click)="deleteVoiture()">Delete</a>
+        <a [routerLink]="['/voitures', voiture.id, 'modifier']" class="btn btn-success">Modifier</a>
+    </div>
+</div>
